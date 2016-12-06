@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'minitest-reporters', '~> 1.1', '>= 1.1.13'
 end
 
 group :development do
