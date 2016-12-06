@@ -8,12 +8,14 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'minitest-reporters', '~> 1.1', '>= 1.1.13'
   gem 'guard', '~> 2.14'
   gem 'minitest', '~> 5.10', '>= 5.10.1'
+  gem 'rails-controller-testing', '~> 1.0', '>= 1.0.1'
 end
 
 group :development do
